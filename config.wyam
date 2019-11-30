@@ -1,0 +1,10 @@
+#recipe Blog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "host.com";
+Settings[BlogKeys.Title] = "ericwagner.dev";
+Settings["Prefix"] = "I'm";
+Settings[BlogKeys.Description] = "Eric Wagner";
+Settings[BlogKeys.Intro] = "Software developer based in St. Louis, Missouri.";
+
+// Add any pipeline customizations here

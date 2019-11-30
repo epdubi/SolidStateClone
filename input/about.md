@@ -1,0 +1,3 @@
+Title: About Me
+---
+My passion for programming began a few years ago, and I attended Ranken Technical College to further my knowledge in Software Development. I'm currently working at Engage Software in St. Louis, Missouri. I love solving real-world problems while still being able to express my creativity. While I'm not studying or writing code, you might find me at a nearby dog park or finding my new favorite mexican resturant.
