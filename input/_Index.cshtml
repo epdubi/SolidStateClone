@@ -77,27 +77,5 @@ else
             </div>
         </section>
     }
-    @if(!Context.Bool(BlogKeys.IndexPaging))
-    {
-        <section class="wrapper style1">
-            <div class="inner">
-                <h5 class="major">Older Posts</h5>
-                <ul>
-                    @foreach(IDocument doc in Documents[Blog.BlogPosts].Skip(Model.DocumentList(Keys.PageDocuments).Count).Take(4))
-                    {        
-                        <li><a href="@Context.GetLink(doc)">@doc.WithoutSettings.String(BlogKeys.Title)</a></li>
-                    }
-                </ul>
-                @if(Context.Bool(BlogKeys.GenerateArchive))
-                {
-                    <ul class="actions">
-                        <li>
-                            <a href="@Context.GetLink(Context.String(BlogKeys.PostsPath))" class="button">Archive &rarr;</a>
-                        </li>
-                    </ul>
-                }
-            </div>
-        </section>
-    }
     @Html.Partial("_IndexSections")
 }
